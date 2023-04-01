@@ -4,6 +4,7 @@
 }
 body{
     background-color: rgb(219, 206, 189);
+    position: sticky;
 }
 .top{
  position: relative;
@@ -29,6 +30,7 @@ body{
     position: relative;
     display: flex;
     justify-content: center;
+    clear: both;
 
 }
 img{
@@ -72,6 +74,7 @@ img{
     position: relative;
     display: block;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 30px;
     font-size: 17px;
     padding-left:20px;
@@ -82,4 +85,10 @@ img{
 }
 .toptype:hover{
  background-color: rgb(182, 66, 211);
+}
+
+@media (min-width:1000px){
+    body{
+    background-color: rgb(247, 172, 75) ;
+    }
 }
